@@ -1,0 +1,104 @@
+nohup: ignoring input
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.18)
+
+2026-07-06 15:28:49.985  INFO 28370 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_412 on VM-0-9-centos with PID 28370 (/root/Examle1/target/demo-0.0.1-SNAPSHOT.jar started by root in /root/Examle1)
+2026-07-06 15:28:49.988  INFO 28370 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-07-06 15:28:50.928  INFO 28370 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-06 15:28:50.996  INFO 28370 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2026-07-06 15:28:51.662  INFO 28370 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2026-07-06 15:28:51.674  INFO 28370 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-06 15:28:51.674  INFO 28370 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-07-06 15:28:51.760  INFO 28370 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-06 15:28:51.760  INFO 28370 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1683 ms
+2026-07-06 15:28:52.014  INFO 28370 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-06 15:28:52.077  INFO 28370 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-07-06 15:28:52.365  INFO 28370 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-07-06 15:28:52.485  INFO 28370 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-06 15:28:52.717  INFO 28370 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-06 15:28:52.737  INFO 28370 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2026-07-06 15:28:53.443  INFO 28370 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-07-06 15:28:53.452  INFO 28370 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-06 15:28:53.876  WARN 28370 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-06 15:28:54.067  INFO 28370 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-07-06 15:28:54.288  INFO 28370 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2026-07-06 15:28:54.307  INFO 28370 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 4.927 seconds (JVM running for 5.467)
+2026-07-06 15:29:50.457  INFO 28370 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-06 15:29:50.457  INFO 28370 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-06 15:29:50.458  INFO 28370 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: insert into user (password, username) values (?, ?)
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: insert into user (password, username) values (?, ?)
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
+2026-07-06 15:36:41.476  INFO 28370 --- [nio-8080-exec-8] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xee0x010x000x000xea0x030x030x9a0xbfN'HH0xc30xb2#4_0xa60xf10xd5#0x040xafk0x010xe30x160xb68o0xfe0x100x100x830x920x0d0xe70xcc ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) [tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) [tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.83.jar!/:na]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_412]
+
+2026-07-07 07:27:00.028  INFO 28370 --- [nio-8080-exec-6] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03gj0x970xd70xb2(70x180x1d0xeb0xa1xbG0x9cO0xdc0x0b0xf00xdf30x010x0b0xb30x180xc40xa80x0e0xbc0xf7[U0x000x000xda0x000x050x000x040x000x020x000x010x000x160x0030x0090x00:0x000x180x0050x000x0a0x000x1b0x00/0x0040xc00x100xc00x060xc00x150xc00x0b0xc00x010x00;0xc000xc0,0xc0(0xc0$0xc00x140xc00x0a0x000xa50x000xa30x000xa10x000x9f0x00k0x00j0x00i0x00h0x0080x0070x0060x000x880x000x870x000x860x000x850xc00x190x000xa70x00m0x000x890xc020xc0.0xc0*0xc0&0xc00x0f0xc00x050x000x9d0x00=0x000x840xc0/0xc0+0xc0'0xc0#0xc00x130xc00x090x000xa40x000xa20x000xa00x000x9e0x00g0x00@0x00?0x00>0x0020x0010x0000x000x9a0x000x990x000x980x000x970x00E0x00D0x00C0x00B0xc00x180x000xa60x00l0x000x9b0x00F0xc010xc0-0xc0)0xc0%0xc00x0e0xc00x040x000x9c0x00<0x000x960x00A0xc00x120xc00x080x000x130x000x100x000x0d0xc00x170xc00x0d0xc00x030x000x070xc00x110xc00x070xc00x160xc00x0c0xc00x020x000xff0x010x000x000xf90x000x0b0x000x040x030x000x010x020x000x0a0x000x0a0x000x080x000x170x000x190x000x180x000x160x00#0x000x000x000x0d0x00 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263) ~[tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) [tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) [tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.83.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.83.jar!/:na]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_412]
+
+Hibernate: select user0_.id as id1_0_, user0_.password as password2_0_, user0_.username as username3_0_ from user user0_ where user0_.username=?
